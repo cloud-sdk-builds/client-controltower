@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-controltower`](https://www.npmjs.com/package/@aws-sdk/client-controltower/v/3.1003.0).
+[`@aws-sdk/client-controltower`](https://www.npmjs.com/package/@aws-sdk/client-controltower/v/3.1004.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1003.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1004.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Ev6N9f3i6IiZmRB2lx1J2gIPTTLE/e3gapCZXsXcvv/z3pwNv1kFixcyYB1mgoZn
+sha384-xk0H3knjjyeWKFsj1PFrgM82KW4hu3dy7Cs6dUR/3cD8VzG27XqQS9kfePnYk9/v
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-controltower": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1003.0/index.min.mjs"
+            "@aws-sdk/client-controltower": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1004.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1003.0/index.min.mjs": "sha384-Ev6N9f3i6IiZmRB2lx1J2gIPTTLE/e3gapCZXsXcvv/z3pwNv1kFixcyYB1mgoZn"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1004.0/index.min.mjs": "sha384-xk0H3knjjyeWKFsj1PFrgM82KW4hu3dy7Cs6dUR/3cD8VzG27XqQS9kfePnYk9/v"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-controltower": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1003.0/index.min.mjs"
+                        "@aws-sdk/client-controltower": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1004.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1003.0/index.min.mjs": "sha384-Ev6N9f3i6IiZmRB2lx1J2gIPTTLE/e3gapCZXsXcvv/z3pwNv1kFixcyYB1mgoZn"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1004.0/index.min.mjs": "sha384-xk0H3knjjyeWKFsj1PFrgM82KW4hu3dy7Cs6dUR/3cD8VzG27XqQS9kfePnYk9/v"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1003.0`)
+* Always pin to a specific version (`@3.1004.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-controltower/blob/refs/tags/3.1003.0/LICENSE
+https://github.com/cloud-sdk-builds/client-controltower/blob/refs/tags/3.1004.0/LICENSE
 ```
 
 ---
