@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-controltower`](https://www.npmjs.com/package/@aws-sdk/client-controltower/v/3.1083.0).
+[`@aws-sdk/client-controltower`](https://www.npmjs.com/package/@aws-sdk/client-controltower/v/3.1084.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-controltower - [https://cloud-sdk-builds.github.io/?sdk=client-controltower](https://cloud-sdk-builds.github.io/?sdk=client-controltower)
-- @aws-sdk/client-controltower v3.1083.0 - [https://cloud-sdk-builds.github.io/?sdk=client-controltower&version=3.1083.0](https://cloud-sdk-builds.github.io/?sdk=client-controltower&version=3.1083.0)
+- @aws-sdk/client-controltower v3.1084.0 - [https://cloud-sdk-builds.github.io/?sdk=client-controltower&version=3.1084.0](https://cloud-sdk-builds.github.io/?sdk=client-controltower&version=3.1084.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1083.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1084.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-BQt4v5k7zZCeGxtuPddDm4D3r9FA9+0iuGuTfTKy4idzN7OvRPjupytYhOXX13aB
+sha384-m+tCZWBR+yjjr+6Nb2QGK90mRhTK9YbiJa48hW9iUx0jhHMHOgxS5cbYyH1eI3Xp
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-controltower": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1083.0/index.min.mjs"
+            "@aws-sdk/client-controltower": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1084.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1083.0/index.min.mjs": "sha384-BQt4v5k7zZCeGxtuPddDm4D3r9FA9+0iuGuTfTKy4idzN7OvRPjupytYhOXX13aB"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1084.0/index.min.mjs": "sha384-m+tCZWBR+yjjr+6Nb2QGK90mRhTK9YbiJa48hW9iUx0jhHMHOgxS5cbYyH1eI3Xp"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-controltower": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1083.0/index.min.mjs"
+                        "@aws-sdk/client-controltower": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1084.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1083.0/index.min.mjs": "sha384-BQt4v5k7zZCeGxtuPddDm4D3r9FA9+0iuGuTfTKy4idzN7OvRPjupytYhOXX13aB"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-controltower@3.1084.0/index.min.mjs": "sha384-m+tCZWBR+yjjr+6Nb2QGK90mRhTK9YbiJa48hW9iUx0jhHMHOgxS5cbYyH1eI3Xp"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1083.0`)
+* Always pin to a specific version (`@3.1084.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-controltower/blob/refs/tags/3.1083.0/LICENSE
+https://github.com/cloud-sdk-builds/client-controltower/blob/refs/tags/3.1084.0/LICENSE
 ```
 
 ---
